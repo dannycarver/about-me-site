@@ -1,0 +1,115 @@
+header {
+
+  background-image: url(../images/woodgrain.png);
+  width:100%;
+  height:40px;
+  margin-left:auto;
+  margin-right:auto;
+  background-position:center;
+  background-repeat:no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+
+}
+
+.row {
+  display: flex;
+  fles-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.logo {
+  padding-top: none;
+}
+
+.hero-image {
+  background-image: url(../images/woodweb.png);
+  border-bottom: 4px solid #acd037;
+  height:50%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+body {
+    background-color: #676767;
+}
+h1 {
+    font-family: "helvetica", sans-serif;
+    font-weight:bold;
+    color: white;
+    font-size: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+h2 {
+  font-family: "helvetica", sans-serif;
+  font-weight:bold;
+  color: #acd037;
+  letter-spacing: 5;
+  margin: 0px 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+h3 {
+  font-family: "helvetica", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+section {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+
+p {
+  font-family: "helvetica", sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+a {
+  font-family: "helvetica", sans-serif;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 0px 10px;
+  margin: auto;
+  vertical-align: baseline;
+}
+
+a:hover {
+  color: #acd037;
+}
+
+footer {
+  background-color: #989898;
+  background-image: url(../images/woodgrain.png);
+  text-align: center;
+  height:100px;
+}
+
+.social {
+  align-content: center;
+  padding-top:20px;
+}
